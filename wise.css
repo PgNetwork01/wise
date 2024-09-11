@@ -99,6 +99,27 @@
   --color-blue-grey-dark: #34515e;
 }
 
+.color-red { background-color: var(--color-red); }
+    .color-pink { background-color: var(--color-pink); }
+    .color-purple { background-color: var(--color-purple); }
+    .color-deep-purple { background-color: var(--color-deep-purple); }
+    .color-indigo { background-color: var(--color-indigo); }
+    .color-blue { background-color: var(--color-blue); }
+    .color-light-blue { background-color: var(--color-light-blue); }
+    .color-cyan { background-color: var(--color-cyan); }
+    .color-teal { background-color: var(--color-teal); }
+    .color-green { background-color: var(--color-green); }
+    .color-light-green { background-color: var(--color-light-green); }
+    .color-lime { background-color: var(--color-lime); }
+    .color-yellow { background-color: var(--color-yellow); color: black; }
+    .color-amber { background-color: var(--color-amber); color: black; }
+    .color-orange { background-color: var(--color-orange); }
+    .color-deep-orange { background-color: var(--color-deep-orange); }
+    .color-brown { background-color: var(--color-brown); }
+    .color-grey { background-color: var(--color-grey); color: black; }
+    .color-blue-grey { background-color: var(--color-blue-grey); }
+    .color-black { background-color: var(--color-black); }
+    .color-white { background-color: var(--color-white); color: black; border: 1px solid #ddd; }
 
 * {
   box-sizing: border-box;
