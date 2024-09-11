@@ -172,7 +172,7 @@ Here’s a full example combining multiple components:
 - [Buttons](/btns.md)
 - [Padding](/padding.md)
 - [Margin](/margin.md)
-- [Outline Buttons](#outline-buttons)
+- [Container](/container.md)
 - [Additional Styles](#additional-styles)
 - [HTML Example](#html-example)
 
