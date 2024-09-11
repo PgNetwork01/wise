@@ -190,4 +190,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Developers can quickly get started by linking the framework via CDN or downloading the stylesheet.
 - They can refer to the included code snippets for integrating buttons, navbars, forms, and grid layouts in their projects.
 
-You can adjust the content further based on new features or updates to your framework.
