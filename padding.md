@@ -150,4 +150,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - It includes examples for using padding on all sides, specific sides, and shorthand padding classes.
 - The full HTML example helps users see the padding styles in action.
 
-Feel free to further customize this file to fit your project's specific requirements.
