@@ -825,3 +825,92 @@ body {
 .margin-all-xxl {
   margin: 48px;
 }
+
+/* Base Container */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+/* Breakpoints for different screen sizes */
+@media (min-width: 576px) {
+  .container-sm {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-md {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-lg {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-xl {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container-xxl {
+    max-width: 1320px;
+  }
+}
+
+/* Fluid container that spans the entire width */
+.container-fluid {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+
+/* No padding container */
+.container-no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Containers with custom padding */
+.container-padding-sm {
+  padding: 10px;
+}
+
+.container-padding-md {
+  padding: 20px;
+}
+
+.container-padding-lg {
+  padding: 30px;
+}
+
+/* Containers with different border-radius */
+.container-rounded {
+  border-radius: 10px;
+}
+
+.container-rounded-lg {
+  border-radius: 20px;
+}
+
+.container-rounded-xl {
+  border-radius: 30px;
+}
+
+/* Center-aligned content */
+.container-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
