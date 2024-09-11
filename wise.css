@@ -914,3 +914,176 @@ body {
   justify-content: center;
 }
 
+/* Base Grid Container */
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+/* 12-column grid layout */
+.grid-cols-12 {
+  grid-template-columns: repeat(12, 1fr);
+}
+
+/* 6-column grid layout */
+.grid-cols-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+/* 4-column grid layout */
+.grid-cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* 3-column grid layout */
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* 2-column grid layout */
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* 1-column layout (default for mobile) */
+.grid-cols-1 {
+  grid-template-columns: 1fr;
+}
+
+/* Full-width column */
+.grid-full-width {
+  grid-column: span 12;
+}
+
+/* Nested grids (if a grid item needs to contain its own grid) */
+.grid-nested {
+  display: grid;
+  gap: 1rem;
+}
+/* Responsive grids based on breakpoints */
+
+/* Small screens */
+@media (min-width: 576px) {
+  .grid-sm-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-sm-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .grid-sm-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .grid-sm-6 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+/* Medium screens (Tablets) */
+@media (min-width: 768px) {
+  .grid-md-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-md-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .grid-md-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .grid-md-6 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+/* Large screens (Desktops) */
+@media (min-width: 992px) {
+  .grid-lg-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-lg-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .grid-lg-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .grid-lg-6 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+/* Extra-large screens */
+@media (min-width: 1200px) {
+  .grid-xl-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-xl-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .grid-xl-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .grid-xl-6 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+/* Grid items spanning multiple columns */
+.grid-span-2 {
+  grid-column: span 2;
+}
+
+.grid-span-3 {
+  grid-column: span 3;
+}
+
+.grid-span-4 {
+  grid-column: span 4;
+}
+
+.grid-span-6 {
+  grid-column: span 6;
+}
+
+.grid-span-12 {
+  grid-column: span 12;
+}
+/* Different gap sizes between grid items */
+.grid-gap-sm {
+  gap: 0.5rem;
+}
+
+.grid-gap-md {
+  gap: 1rem;
+}
+
+.grid-gap-lg {
+  gap: 2rem;
+}
+
+.grid-gap-xl {
+  gap: 3rem;
+}
+/* Align items in grid */
+.grid-align-center {
+  justify-items: center;
+  align-items: center;
+}
+
+.grid-align-start {
+  justify-items: start;
+  align-items: start;
+}
+
+.grid-align-end {
+  justify-items: end;
+  align-items: end;
+}
+
+/* Align content within the grid */
+.grid-content-center {
+  justify-content: center;
+  align-content: center;
+}
+
+.grid-content-space-between {
+  justify-content: space-between;
+  align-content: space-between;
+}
