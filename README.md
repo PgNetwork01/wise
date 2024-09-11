@@ -167,6 +167,15 @@ Here’s a full example combining multiple components:
 </html>
 ```
 
+## Docs
+
+- [Buttons](/btns.md)
+- [Button Colors](#button-colors)
+- [Button Sizes](#button-sizes)
+- [Outline Buttons](#outline-buttons)
+- [Additional Styles](#additional-styles)
+- [HTML Example](#html-example)
+
 ## Contribution
 
 If you would like to contribute to **wise.css**, feel free to submit pull requests or report issues in the repository.
