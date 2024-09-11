@@ -170,8 +170,8 @@ Here’s a full example combining multiple components:
 ## Docs
 
 - [Buttons](/btns.md)
-- [Button Colors](#button-colors)
-- [Button Sizes](#button-sizes)
+- [Padding](/padding.md)
+- [Margin](/margin.md)
 - [Outline Buttons](#outline-buttons)
 - [Additional Styles](#additional-styles)
 - [HTML Example](#html-example)
