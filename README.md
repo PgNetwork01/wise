@@ -1,8 +1,3 @@
-Here’s a detailed `README.md` file for your **wise.css** project. This file will help others understand how your CSS framework works, how to use it, and provide examples.
-
-### `README.md`
-
-```markdown
 # wise.css
 
 **wise.css** is a lightweight CSS framework designed for fast and simple web development. It provides a clean and easy-to-use structure similar to w3.css but with optimized, customizable components. With a focus on simplicity, **wise.css** allows you to quickly style your HTML elements with minimal effort.
