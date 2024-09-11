@@ -298,3 +298,216 @@ body {
   cursor: not-allowed;
   background-color: #ccc;
 }
+/* Base padding class */
+.padding {
+  box-sizing: border-box;
+}
+
+/* Padding sizes (for all sides) */
+.padding-xs {
+  padding: 4px;
+}
+
+.padding-sm {
+  padding: 8px;
+}
+
+.padding-md {
+  padding: 16px;
+}
+
+.padding-lg {
+  padding: 24px;
+}
+
+.padding-xl {
+  padding: 32px;
+}
+
+.padding-xxl {
+  padding: 48px;
+}
+
+/* Padding sizes (specific sides) */
+.padding-top-xs {
+  padding-top: 4px;
+}
+
+.padding-top-sm {
+  padding-top: 8px;
+}
+
+.padding-top-md {
+  padding-top: 16px;
+}
+
+.padding-top-lg {
+  padding-top: 24px;
+}
+
+.padding-top-xl {
+  padding-top: 32px;
+}
+
+.padding-top-xxl {
+  padding-top: 48px;
+}
+
+.padding-right-xs {
+  padding-right: 4px;
+}
+
+.padding-right-sm {
+  padding-right: 8px;
+}
+
+.padding-right-md {
+  padding-right: 16px;
+}
+
+.padding-right-lg {
+  padding-right: 24px;
+}
+
+.padding-right-xl {
+  padding-right: 32px;
+}
+
+.padding-right-xxl {
+  padding-right: 48px;
+}
+
+.padding-bottom-xs {
+  padding-bottom: 4px;
+}
+
+.padding-bottom-sm {
+  padding-bottom: 8px;
+}
+
+.padding-bottom-md {
+  padding-bottom: 16px;
+}
+
+.padding-bottom-lg {
+  padding-bottom: 24px;
+}
+
+.padding-bottom-xl {
+  padding-bottom: 32px;
+}
+
+.padding-bottom-xxl {
+  padding-bottom: 48px;
+}
+
+.padding-left-xs {
+  padding-left: 4px;
+}
+
+.padding-left-sm {
+  padding-left: 8px;
+}
+
+.padding-left-md {
+  padding-left: 16px;
+}
+
+.padding-left-lg {
+  padding-left: 24px;
+}
+
+.padding-left-xl {
+  padding-left: 32px;
+}
+
+.padding-left-xxl {
+  padding-left: 48px;
+}
+
+/* Padding sizes (horizontal and vertical) */
+.padding-h-xs {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.padding-h-sm {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.padding-h-md {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.padding-h-lg {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.padding-h-xl {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.padding-h-xxl {
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.padding-v-xs {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.padding-v-sm {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.padding-v-md {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.padding-v-lg {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.padding-v-xl {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.padding-v-xxl {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+/* Padding styles with shorthand */
+.padding-all-xs {
+  padding: 4px;
+}
+
+.padding-all-sm {
+  padding: 8px;
+}
+
+.padding-all-md {
+  padding: 16px;
+}
+
+.padding-all-lg {
+  padding: 24px;
+}
+
+.padding-all-xl {
+  padding: 32px;
+}
+
+.padding-all-xxl {
+  padding: 48px;
+}
+
