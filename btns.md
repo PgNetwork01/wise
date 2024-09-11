@@ -248,4 +248,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - This `README.md` file visually shows each button type alongside its class name and example HTML code.
 - It helps users quickly understand how each button style looks and how to use the appropriate classes.
 
-Feel free to further customize this documentation based on your specific needs or updates to **wise.css**.
