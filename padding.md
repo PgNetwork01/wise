@@ -138,7 +138,7 @@ Here is a full HTML example demonstrating the padding styles in **wise.css**:
 
 ## Contribution
 
-Feel free to contribute to **wise.css** by submitting issues or pull requests on the [GitHub repository](https://github.com/your-repo/wise.css).
+Feel free to contribute to **wise.css** by submitting issues or pull requests on the [GitHub repository](https://github.com/wise/wise.css).
 
 ## License
 
