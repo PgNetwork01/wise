@@ -511,3 +511,215 @@ body {
   padding: 48px;
 }
 
+/* Base margin class */
+.margin {
+  box-sizing: border-box;
+}
+
+/* Margin sizes (for all sides) */
+.margin-xs {
+  margin: 4px;
+}
+
+.margin-sm {
+  margin: 8px;
+}
+
+.margin-md {
+  margin: 16px;
+}
+
+.margin-lg {
+  margin: 24px;
+}
+
+.margin-xl {
+  margin: 32px;
+}
+
+.margin-xxl {
+  margin: 48px;
+}
+
+/* Margin sizes (specific sides) */
+.margin-top-xs {
+  margin-top: 4px;
+}
+
+.margin-top-sm {
+  margin-top: 8px;
+}
+
+.margin-top-md {
+  margin-top: 16px;
+}
+
+.margin-top-lg {
+  margin-top: 24px;
+}
+
+.margin-top-xl {
+  margin-top: 32px;
+}
+
+.margin-top-xxl {
+  margin-top: 48px;
+}
+
+.margin-right-xs {
+  margin-right: 4px;
+}
+
+.margin-right-sm {
+  margin-right: 8px;
+}
+
+.margin-right-md {
+  margin-right: 16px;
+}
+
+.margin-right-lg {
+  margin-right: 24px;
+}
+
+.margin-right-xl {
+  margin-right: 32px;
+}
+
+.margin-right-xxl {
+  margin-right: 48px;
+}
+
+.margin-bottom-xs {
+  margin-bottom: 4px;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 8px;
+}
+
+.margin-bottom-md {
+  margin-bottom: 16px;
+}
+
+.margin-bottom-lg {
+  margin-bottom: 24px;
+}
+
+.margin-bottom-xl {
+  margin-bottom: 32px;
+}
+
+.margin-bottom-xxl {
+  margin-bottom: 48px;
+}
+
+.margin-left-xs {
+  margin-left: 4px;
+}
+
+.margin-left-sm {
+  margin-left: 8px;
+}
+
+.margin-left-md {
+  margin-left: 16px;
+}
+
+.margin-left-lg {
+  margin-left: 24px;
+}
+
+.margin-left-xl {
+  margin-left: 32px;
+}
+
+.margin-left-xxl {
+  margin-left: 48px;
+}
+
+/* Margin sizes (horizontal and vertical) */
+.margin-h-xs {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.margin-h-sm {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.margin-h-md {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.margin-h-lg {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.margin-h-xl {
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.margin-h-xxl {
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+.margin-v-xs {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.margin-v-sm {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.margin-v-md {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.margin-v-lg {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.margin-v-xl {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.margin-v-xxl {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+/* Margin styles with shorthand */
+.margin-all-xs {
+  margin: 4px;
+}
+
+.margin-all-sm {
+  margin: 8px;
+}
+
+.margin-all-md {
+  margin: 16px;
+}
+
+.margin-all-lg {
+  margin: 24px;
+}
+
+.margin-all-xl {
+  margin: 32px;
+}
+
+.margin-all-xxl {
+  margin: 48px;
+}
