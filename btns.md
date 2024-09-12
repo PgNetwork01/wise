@@ -1,7 +1,7 @@
 
 # Button Styles in wise.css
 
-**wise.css** provides a variety of button styles that are easy to use and customize. This document covers the different types of buttons available, including color variations, sizes, and additional styles.
+**wise.css** provides a variety of button styles that are easy to use and customize. This document covers the different types of buttons available, including color variations, sizes, and additional styles. 
 
 ## Table of Contents
 
