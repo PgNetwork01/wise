@@ -2065,3 +2065,96 @@ round-bottom-md {
   border-top-right-radius: 24px;
   border-bottom-right-radius: 24px;
 }
+
+/* Base Quote Styles */
+blockquote {
+  padding: 1rem;
+  margin: 1rem 0;
+  font-style: italic;
+  border-left: 4px solid #ddd;
+  background-color: #f9f9f9;
+  font-family: 'Georgia', serif;
+  font-size: 1.125rem;
+  color: #333;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+/* Blockquote with Custom Border Color */
+blockquote.custom-border {
+  border-left: 4px solid #007bff; /* Custom border color */
+  background-color: #e9f4ff; /* Custom background color */
+}
+
+/* Blockquote with Shadow */
+blockquote.shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow for a lifted effect */
+}
+
+/* Blockquote with Rounded Corners */
+blockquote.rounded {
+  border-radius: 8px; /* Rounded corners */
+  padding: 1.5rem;
+  background-color: #f4f4f4; /* Slightly different background */
+}
+
+/* Inline Quote */
+.inline-quote {
+  font-style: italic;
+  color: #555;
+  border-bottom: 1px dotted #ddd; /* Dotted underline */
+  padding-bottom: 0.1rem;
+}
+
+/* Blockquote with Citation */
+blockquote.citation {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-left: 0;
+  border-left: 4px solid #007bff; /* Custom border color */
+}
+
+blockquote.citation::before {
+  content: "“"; /* Opening quote symbol */
+  font-size: 3rem;
+  color: #007bff; /* Custom color */
+  position: absolute;
+  left: 0;
+  top: -0.5rem;
+}
+
+blockquote.citation::after {
+  content: "”"; /* Closing quote symbol */
+  font-size: 3rem;
+  color: #007bff; /* Custom color */
+  position: absolute;
+  right: 0;
+  bottom: -0.5rem;
+}
+
+blockquote.citation footer {
+  text-align: right;
+  font-size: 0.875rem;
+  color: #555;
+}
+
+/* Example for Adding Quote Attribution */
+blockquote.attribution {
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 4px solid #ddd;
+  background-color: #f9f9f9;
+  font-style: italic;
+  font-family: 'Georgia', serif;
+  font-size: 1.125rem;
+  color: #333;
+}
+
+blockquote.attribution footer {
+  margin-top: 0.5rem;
+  text-align: right;
+  font-size: 0.875rem;
+  color: #777;
+}
