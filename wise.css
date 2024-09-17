@@ -1870,6 +1870,97 @@ round-bottom-md {
   border-bottom-right-radius: 16px;
 }
 
+/* Display Properties */
+
+/* Block Level */
+.block {
+  display: block; /* The element takes up the full width available, breaking onto a new line */
+}
+
+/* Inline Level */
+.inline {
+  display: inline; /* The element takes up only as much width as its content and does not break onto a new line */
+}
+
+/* Inline-Block Level */
+.inline-block {
+  display: inline-block; /* The element behaves like an inline element but allows setting width and height */
+}
+
+/* Flexbox */
+.flex {
+  display: flex; /* The element is a flex container, and its children are flex items */
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row; /* Flex items are arranged in a row (default) */
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column; /* Flex items are arranged in a column */
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap; /* Flex items wrap onto multiple lines */
+}
+
+/* Grid */
+.grid {
+  display: grid; /* The element is a grid container, and its children are grid items */
+}
+
+.grid-cols-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates a grid with 2 equal-width columns */
+}
+
+.grid-cols-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates a grid with 3 equal-width columns */
+}
+
+.grid-rows-2 {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr); /* Creates a grid with 2 equal-height rows */
+}
+
+.grid-rows-3 {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr); /* Creates a grid with 3 equal-height rows */
+}
+
+/* None */
+.none {
+  display: none; /* The element is not rendered and does not take up space */
+}
+
+/* Table */
+.table {
+  display: table; /* The element behaves like a <table> element */
+}
+
+.table-row {
+  display: table-row; /* The element behaves like a <tr> element */
+}
+
+.table-cell {
+  display: table-cell; /* The element behaves like a <td> element */
+}
+
+/* List Item */
+.list-item {
+  display: list-item; /* The element behaves like a <li> element */
+}
+
+/* Contents */
+.contents {
+  display: contents; /* The element itself is not rendered but its children are */
+}
+
+
 .round-right-xl {
   border-top-right-radius: 24px;
   border-bottom-right-radius: 24px;
