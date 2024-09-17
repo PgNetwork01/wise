@@ -3438,3 +3438,254 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .flip {
   animation: flip 1s ease-in-out;
 }
+
+/* Hover Effects */
+
+/* Shadow Effect */
+.shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.shadow-lg {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.shadow-sm {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Glow Effect */
+.glow {
+  text-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
+}
+
+.glow-blue {
+  text-shadow: 0 0 10px rgba(0, 0, 255, 0.8);
+}
+
+/* Inset Shadow Effect */
+.inset-shadow {
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Border Effect */
+.border-effect {
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  position: relative;
+}
+
+.border-effect::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.border-effect:hover::before {
+  border-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Background Effects */
+.bg-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-effect::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.bg-effect:hover::before {
+  opacity: 1;
+}
+
+/* Transition Effects */
+.transition {
+  transition: all 0.3s ease;
+}
+
+.transition-transform {
+  transition: transform 0.3s ease;
+}
+
+.transition-opacity {
+  transition: opacity 0.3s ease;
+}
+
+/* Flip Effect */
+.flip-effect {
+  perspective: 1000px;
+}
+
+.flip-effect .flip-card {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-effect:hover .flip-card {
+  transform: rotateY(180deg);
+}
+
+.flip-effect .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+}
+
+.flip-effect .flip-card-front,
+.flip-effect .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-effect .flip-card-back {
+  transform: rotateY(180deg);
+}
+
+/* Opacity Effect */
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.opacity-75 {
+  opacity: 0.75;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
+/* Color Overlay Effect */
+.color-overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.color-overlay::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.color-overlay:hover::before {
+  opacity: 1;
+}
+
+/* Gradient Background */
+.gradient-bg {
+  background: linear-gradient(45deg, #ff6b6b, #f7d794);
+}
+
+.gradient-bg-alt {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+/* Base Progress Bar */
+.progress {
+  position: relative;
+  height: 1.5rem;
+  background-color: #f3f3f3;
+  border-radius: 0.25rem;
+}
+
+.progress-bar {
+  position: absolute;
+  height: 100%;
+  background-color: #4caf50;
+  text-align: center;
+  line-height: 1.5rem;
+  color: white;
+  border-radius: 0.25rem;
+  transition: width 0.6s ease;
+}
+
+.progress-bar-striped {
+  background: linear-gradient(45deg, rgba(255,255,255,.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,.15) 50%, rgba(255,255,255,.15) 75%, transparent 75%, transparent);
+  background-size: 40px 40px;
+  animation: progress-bar-stripes 1s linear infinite;
+}
+
+@keyframes progress-bar-stripes {
+  0% { background-position: 0 0; }
+  100% { background-position: 40px 0; }
+}
+
+/* Example Usage */
+.progress-bar-success {
+  background-color: #4caf50;
+}
+
+.progress-bar-danger {
+  background-color: #f44336;
+}
+
+/* Basic Loading Bar */
+.loading-bar {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  border: 3px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 3px solid #3498db;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Bar Loader */
+.bar-loader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 4rem;
+}
+
+.bar-loader div {
+  width: 10%;
+  height: 1rem;
+  background-color: #3498db;
+  animation: bar-loader 1s infinite ease-in-out;
+}
+
+.bar-loader div:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.bar-loader div:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.bar-loader div:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+@keyframes bar-loader {
+  0%, 100% { transform: scaleY(1); }
+  50% { transform: scaleY(0.4); }
+}
+
