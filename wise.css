@@ -1960,6 +1960,106 @@ round-bottom-md {
   display: contents; /* The element itself is not rendered but its children are */
 }
 
+/* Note Styles */
+
+/* Basic Note */
+.note {
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+}
+
+/* Success Note */
+.note-success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+/* Error Note */
+.note-error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+/* Warning Note */
+.note-warning {
+  background-color: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+}
+
+/* Information Note */
+.note-info {
+  background-color: #d1ecf1;
+  color: #0c5460;
+  border: 1px solid #bee5eb;
+}
+
+/* Note with Icon */
+.note-icon {
+  display: flex;
+  align-items: center;
+}
+
+.note-icon i {
+  margin-right: 0.5rem; /* Space between icon and text */
+}
+
+/* Rounded Note */
+.note-rounded {
+  border-radius: 12px; /* Larger radius for a more rounded appearance */
+}
+
+/* Shadow Note */
+.note-shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow for a lifted effect */
+}
+
+/* Dismissible Note */
+.note-dismissible {
+  position: relative;
+  padding-right: 2.5rem; /* Space for the close button */
+}
+
+.note-dismissible .close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  color: inherit;
+}
+
+.note-dismissible .close:hover {
+  color: #000;
+}
+
+/* Example of using icons */
+.note-success i::before {
+  content: '✔'; /* Success icon */
+  color: #155724;
+}
+
+.note-error i::before {
+  content: '✘'; /* Error icon */
+  color: #721c24;
+}
+
+.note-warning i::before {
+  content: '⚠'; /* Warning icon */
+  color: #856404;
+}
+
+.note-info i::before {
+  content: 'ℹ'; /* Information icon */
+  color: #0c5460;
+}
 
 .round-right-xl {
   border-top-right-radius: 24px;
