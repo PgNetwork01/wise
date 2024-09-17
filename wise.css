@@ -1108,3 +1108,80 @@ body {
   justify-content: space-between;
   align-content: space-between;
 }
+
+/* Base Panel */
+.panel {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 1rem 0;
+}
+
+/* Panel Header */
+.panel-header {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* Panel Body */
+.panel-body {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Panel Footer */
+.panel-footer {
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  text-align: right;
+}
+
+/* Panel with border color */
+.panel-border-red {
+  border-color: #f44336;
+}
+
+.panel-border-green {
+  border-color: #4caf50;
+}
+
+.panel-border-blue {
+  border-color: #2196f3;
+}
+
+/* Panel with border width */
+.panel-border-thin {
+  border-width: 1px;
+}
+
+.panel-border-thick {
+  border-width: 2px;
+}
+
+/* Panel with background color */
+.panel-bg-light {
+  background-color: #f9f9f9;
+}
+
+.panel-bg-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.panel-bg-primary {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.panel-bg-success {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.panel-bg-danger {
+  background-color: #f44336;
+  color: #fff;
+}
