@@ -3840,3 +3840,162 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
   color: white;
   border-color: #007bff;
 }
+
+/* Base Slideshow Styles */
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slideshow-slide {
+  display: none;
+  position: absolute;
+  width: 100%;
+}
+
+.slideshow-slide img {
+  width: 100%;
+  height: auto;
+}
+
+/* Navigation Buttons */
+.slideshow-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.slideshow-nav .prev, .slideshow-nav .next {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s;
+}
+
+.slideshow-nav .prev:hover, .slideshow-nav .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Dots */
+.slideshow-dots {
+  text-align: center;
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+}
+
+.slideshow-dots .dot {
+  display: inline-block;
+  background-color: #bbb;
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
+  margin: 0 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.slideshow-dots .dot.active {
+  background-color: #717171;
+}
+
+/* Base Modal Styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 2rem;
+  border-radius: 0.25rem;
+  width: 80%; /* Could be more or less, depending on screen size */
+  max-width: 600px; /* Optional: limit width on large screens */
+}
+
+/* Modal Header */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+}
+
+.modal-header h2 {
+  margin: 0;
+}
+
+/* Close Button */
+.modal-close {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #aaa;
+  transition: color 0.3s;
+}
+
+.modal-close:hover {
+  color: #000;
+}
+
+/* Modal Body */
+.modal-body {
+  padding: 1rem;
+}
+
+/* Modal Footer */
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  border-top: 1px solid #ddd;
+  padding-top: 1rem;
+}
+
+.modal-footer button {
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Primary Action Button */
+.modal-footer .btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.modal-footer .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Secondary Action Button */
+.modal-footer .btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.modal-footer .btn-secondary:hover {
+  background-color: #5a6268;
+}
