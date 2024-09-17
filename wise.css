@@ -1185,3 +1185,22 @@ body {
   background-color: #f44336;
   color: #fff;
 }
+
+/* Responsive Panels */
+@media (max-width: 576px) {
+  .panel {
+    padding: 0.5rem;
+  }
+
+  .panel-header {
+    font-size: 1rem;
+  }
+
+  .panel-body {
+    font-size: 0.875rem;
+  }
+
+  .panel-footer {
+    font-size: 0.75rem;
+  }
+}
