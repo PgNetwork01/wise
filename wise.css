@@ -1204,3 +1204,145 @@ body {
     font-size: 0.75rem;
   }
 }
+
+/* Base Border */
+.border {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ddd;
+}
+
+/* Border Color Variants */
+.border-color-primary {
+  border-color: #2196f3;
+}
+
+.border-color-success {
+  border-color: #4caf50;
+}
+
+.border-color-danger {
+  border-color: #f44336;
+}
+
+.border-color-warning {
+  border-color: #ff9800;
+}
+
+.border-color-info {
+  border-color: #00bcd4;
+}
+
+/* Border Width Variants */
+.border-thin {
+  border-width: 1px;
+}
+
+.border-medium {
+  border-width: 2px;
+}
+
+.border-thick {
+  border-width: 4px;
+}
+
+.border-extra-thick {
+  border-width: 6px;
+}
+
+/* Border Style Variants */
+.border-dotted {
+  border-style: dotted;
+}
+
+.border-dashed {
+  border-style: dashed;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-double {
+  border-style: double;
+}
+
+.border-groove {
+  border-style: groove;
+}
+
+.border-ridge {
+  border-style: ridge;
+}
+
+.border-inset {
+  border-style: inset;
+}
+
+.border-outset {
+  border-style: outset;
+}
+
+/* Rounded Borders */
+.border-radius-sm {
+  border-radius: 0.25rem;
+}
+
+.border-radius-md {
+  border-radius: 0.5rem;
+}
+
+.border-radius-lg {
+  border-radius: 0.75rem;
+}
+
+.border-radius-xl {
+  border-radius: 1rem;
+}
+
+/* Border on Specific Sides */
+.border-top {
+  border-top: 1px solid #ddd;
+}
+
+.border-right {
+  border-right: 1px solid #ddd;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ddd;
+}
+
+.border-left {
+  border-left: 1px solid #ddd;
+}
+
+/* No Border */
+.border-none {
+  border: none;
+}
+
+/* Responsive borders for different breakpoints */
+@media (max-width: 576px) {
+  .border-responsive-sm {
+    border-width: 1px;
+  }
+}
+
+@media (min-width: 576px) {
+  .border-responsive-md {
+    border-width: 2px;
+  }
+}
+
+@media (min-width: 768px) {
+  .border-responsive-lg {
+    border-width: 3px;
+  }
+}
+
+@media (min-width: 992px) {
+  .border-responsive-xl {
+    border-width: 4px;
+  }
+}
