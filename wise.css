@@ -3689,3 +3689,154 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
   50% { transform: scaleY(0.4); }
 }
 
+/* Base Accordion Styles */
+.accordion {
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-item:last-child {
+  border-bottom: none;
+}
+
+.accordion-header {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.accordion-header:hover {
+  background-color: #e2e6ea;
+}
+
+.accordion-body {
+  padding: 1rem;
+  display: none;
+  background-color: #fff;
+}
+
+/* Accordion Expanded State */
+.accordion-header.active {
+  background-color: #e2e6ea;
+}
+
+.accordion-body.show {
+  display: block;
+  transition: height 0.3s ease;
+}
+
+/* For smooth transition (optional) */
+.accordion-body.collapsing {
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+/* Base Tab Container */
+.tabs {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Tab Links */
+.tab-links {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+
+.tab-links button {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-bottom: none;
+  padding: 1rem;
+  cursor: pointer;
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.tab-links button.active {
+  background-color: #fff;
+  color: #007bff;
+  border-color: #ddd;
+  border-bottom: 1px solid #fff;
+}
+
+.tab-links button:hover {
+  background-color: #e2e6ea;
+}
+
+/* Tab Content */
+.tab-content {
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.tab-content .tab-pane {
+  display: none;
+}
+
+.tab-content .tab-pane.active {
+  display: block;
+}
+
+/* Base Pagination Styles */
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.pagination li {
+  margin: 0 0.25rem;
+}
+
+.pagination a, .pagination span {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  text-align: center;
+  text-decoration: none;
+  color: #007bff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination a:hover, .pagination span.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+/* Disabled and Active States */
+.pagination .disabled {
+  pointer-events: none;
+  color: #6c757d;
+  border-color: #ddd;
+  background-color: #f8f9fa;
+}
+
+.pagination .disabled a {
+  color: #6c757d;
+}
+
+.pagination .disabled span {
+  color: #6c757d;
+}
+
+.pagination .active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
