@@ -2158,3 +2158,861 @@ blockquote.attribution footer {
   font-size: 0.875rem;
   color: #777;
 }
+
+/* Base Alert Styles */
+.alert {
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 4px;
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+  color: #fff; /* Default text color for alerts */
+  display: flex;
+  align-items: center;
+}
+
+/* Success Alert */
+.alert-success {
+  background-color: #d4edda; /* Green background for success */
+  color: #155724; /* Dark green text */
+  border: 1px solid #c3e6cb; /* Light green border */
+}
+
+.alert-success .icon {
+  color: #155724; /* Icon color for success */
+}
+
+/* Error Alert */
+.alert-error {
+  background-color: #f8d7da; /* Red background for errors */
+  color: #721c24; /* Dark red text */
+  border: 1px solid #f5c6cb; /* Light red border */
+}
+
+.alert-error .icon {
+  color: #721c24; /* Icon color for errors */
+}
+
+/* Warning Alert */
+.alert-warning {
+  background-color: #fff3cd; /* Yellow background for warnings */
+  color: #856404; /* Dark yellow text */
+  border: 1px solid #ffeeba; /* Light yellow border */
+}
+
+.alert-warning .icon {
+  color: #856404; /* Icon color for warnings */
+}
+
+/* Info Alert */
+.alert-info {
+  background-color: #d1ecf1; /* Light blue background for information */
+  color: #0c5460; /* Dark blue text */
+  border: 1px solid #bee5eb; /* Light blue border */
+}
+
+.alert-info .icon {
+  color: #0c5460; /* Icon color for info */
+}
+
+/* Dismissible Alert */
+.alert-dismissible {
+  padding-right: 2.5rem; /* Space for close button */
+  position: relative;
+}
+
+.alert-dismissible .close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  color: inherit;
+}
+
+.alert-dismissible .close:hover {
+  color: #000;
+}
+
+/* Alert Icons */
+.alert-success .icon::before {
+  content: '✔'; /* Success icon */
+}
+
+.alert-error .icon::before {
+  content: '✘'; /* Error icon */
+}
+
+.alert-warning .icon::before {
+  content: '⚠'; /* Warning icon */
+}
+
+.alert-info .icon::before {
+  content: 'ℹ'; /* Information icon */
+}
+
+/* Base Table Styles */
+.table {
+  width: 100%;
+  border-collapse: collapse; /* Collapses borders to prevent double borders */
+  margin: 1rem 0;
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+}
+
+.table th, .table td {
+  padding: 0.75rem; /* Padding inside table cells */
+  text-align: left; /* Aligns text to the left */
+  border: 1px solid #ddd; /* Light border for table cells */
+}
+
+.table th {
+  background-color: #f4f4f4; /* Light gray background for table headers */
+  font-weight: bold; /* Bold text for headers */
+}
+
+/* Table Striping */
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9; /* Alternating row background color */
+}
+
+/* Table Hover */
+.table-hover tbody tr:hover {
+  background-color: #f1f1f1; /* Background color on row hover */
+}
+
+/* Table Bordered */
+.table-bordered {
+  border: 1px solid #ddd; /* Border around the entire table */
+}
+
+.table-bordered th, .table-bordered td {
+  border: 1px solid #ddd; /* Borders around table cells */
+}
+
+/* Table Condensed */
+.table-condensed th, .table-condensed td {
+  padding: 0.5rem; /* Less padding for condensed tables */
+}
+
+/* Table Responsive */
+.table-responsive {
+  overflow-x: auto; /* Enables horizontal scrolling for overflowed tables */
+}
+
+/* Table Bordered with Hover Effect */
+.table-bordered-hover tbody tr:hover {
+  background-color: #f5f5f5; /* Background color on row hover for bordered tables */
+}
+
+/* Example of Table with Primary Color Accent */
+.table-primary th, .table-primary td {
+  border-color: #007bff; /* Primary color border */
+}
+
+.table-primary th {
+  background-color: #007bff; /* Primary color background for headers */
+  color: #fff; /* White text color for headers */
+}
+
+/* Example of Table with Success Color Accent */
+.table-success th, .table-success td {
+  border-color: #28a745; /* Success color border */
+}
+
+.table-success th {
+  background-color: #28a745; /* Success color background for headers */
+  color: #fff; /* White text color for headers */
+}
+
+/* Base List Styles */
+ul, ol, dl {
+  margin: 1rem 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+}
+
+/* Unordered List */
+ul {
+  list-style-type: disc; /* Default bullet points */
+  padding-left: 1.5rem; /* Space for bullets */
+}
+
+ul.circle {
+  list-style-type: circle; /* Circle bullets */
+}
+
+ul.square {
+  list-style-type: square; /* Square bullets */
+}
+
+ul.none {
+  list-style-type: none; /* No bullets */
+  padding-left: 0; /* Remove padding */
+}
+
+/* Ordered List */
+ol {
+  list-style-type: decimal; /* Default numbering */
+  padding-left: 1.5rem; /* Space for numbers */
+}
+
+ol.roman {
+  list-style-type: upper-roman; /* Roman numerals */
+}
+
+ol.alpha {
+  list-style-type: lower-alpha; /* Lowercase letters */
+}
+
+ol.roman-uppercase {
+  list-style-type: upper-roman; /* Uppercase Roman numerals */
+}
+
+/* Definition List */
+dl {
+  padding: 0;
+}
+
+dt {
+  font-weight: bold; /* Bold definition terms */
+  margin-top: 1rem; /* Space above definition terms */
+}
+
+dd {
+  margin: 0 0 0 1.5rem; /* Indent definitions */
+}
+
+/* Nested Lists */
+ul ul, ol ol {
+  margin: 0;
+  padding-left: 1.5rem; /* Indent nested lists */
+}
+
+/* Custom Bullet Styles */
+ul.custom-bullets {
+  list-style: none; /* Remove default bullets */
+  padding-left: 0; /* Remove padding */
+}
+
+ul.custom-bullets li {
+  position: relative; /* Positioning context for custom bullets */
+  padding-left: 2rem; /* Space for custom bullets */
+}
+
+ul.custom-bullets li::before {
+  content: '•'; /* Custom bullet character */
+  position: absolute;
+  left: 0;
+  color: #007bff; /* Custom bullet color */
+  font-size: 1.5rem; /* Custom bullet size */
+}
+
+/* Custom Numbered Lists */
+ol.custom-numbers {
+  list-style: none; /* Remove default numbers */
+  padding-left: 0; /* Remove padding */
+}
+
+ol.custom-numbers li {
+  position: relative; /* Positioning context for custom numbers */
+  padding-left: 2rem; /* Space for custom numbers */
+}
+
+ol.custom-numbers li::before {
+  content: counter(list-item) '. '; /* Custom number format */
+  position: absolute;
+  left: 0;
+  font-weight: bold; /* Bold custom numbers */
+}
+
+/* List Item Styles */
+li {
+  margin-bottom: 0.5rem; /* Space between list items */
+}
+
+/* Responsive Lists */
+@media (max-width: 768px) {
+  ul, ol {
+    padding-left: 1rem; /* Adjust padding for smaller screens */
+  }
+}
+
+/* Base Image Styles */
+img {
+  max-width: 100%; /* Ensures images are responsive */
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Removes bottom space/spacing */
+}
+
+/* Rounded Images */
+img.rounded {
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Circle Images */
+img.circle {
+  border-radius: 50%; /* Perfect circle */
+}
+
+/* Thumbnail Images */
+img.thumbnail {
+  border: 1px solid #ddd; /* Light border around thumbnail */
+  border-radius: 4px; /* Slightly rounded corners */
+  padding: 4px; /* Space between border and image */
+  background-color: #f8f8f8; /* Light background color */
+}
+
+/* Image with Shadow */
+img.shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow effect */
+}
+
+/* Image with Border */
+img.border {
+  border: 2px solid #007bff; /* Custom border color and width */
+  border-radius: 4px; /* Slightly rounded corners */
+}
+
+/* Responsive Image Containers */
+.image-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%; /* Full width of parent */
+  padding-top: 56.25%; /* Aspect ratio of 16:9 */
+}
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container */
+}
+
+/* Centered Images */
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Image Overlay */
+.image-overlay {
+  position: relative;
+  display: inline-block; /* Allows overlay effect */
+}
+
+.image-overlay img {
+  display: block;
+}
+
+.image-overlay .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  color: #fff; /* Text color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.image-overlay:hover .overlay {
+  opacity: 1; /* Show overlay on hover */
+}
+
+/* Example for Image with Text */
+.image-text {
+  position: relative;
+  display: inline-block;
+}
+
+.image-text img {
+  display: block;
+}
+
+.image-text .text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark background with transparency */
+  color: #fff; /* White text */
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+/* Base Input Styles */
+input, textarea, select {
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+  padding: 0.75rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* Includes padding and border in element's total width and height */
+  width: 100%; /* Full width of parent container */
+  margin: 0.5rem 0; /* Vertical spacing */
+}
+
+/* Focused Input Styles */
+input:focus, textarea:focus, select:focus {
+  border-color: #007bff; /* Primary color border on focus */
+  outline: none; /* Removes default outline */
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25); /* Adds a subtle shadow */
+}
+
+/* Disabled Input Styles */
+input:disabled, textarea:disabled, select:disabled {
+  background-color: #e9ecef; /* Light gray background */
+  border-color: #ddd; /* Light border color */
+  cursor: not-allowed; /* Indicates disabled state */
+}
+
+/* Read-Only Input Styles */
+input[readonly], textarea[readonly] {
+  background-color: #f5f5f5; /* Slightly darker gray background */
+  border-color: #ddd; /* Light border color */
+  cursor: not-allowed; /* Indicates read-only state */
+}
+
+/* Input Groups */
+.input-group {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.input-group input {
+  flex: 1; /* Expands input to fill space */
+  border-radius: 0; /* Removes border-radius for seamless look */
+}
+
+.input-group-addon, .input-group-btn {
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.75rem;
+}
+
+/* Buttons inside Input Groups */
+.input-group-btn button {
+  border: 1px solid #ddd;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 0;
+}
+
+/* Textarea Styles */
+textarea {
+  resize: vertical; /* Allows vertical resizing only */
+  min-height: 100px; /* Minimum height for textarea */
+}
+
+/* Checkbox and Radio Button Styles */
+input[type="checkbox"], input[type="radio"] {
+  margin: 0; /* Removes default margin */
+}
+
+input[type="checkbox"] + label, input[type="radio"] + label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label::before, input[type="radio"]:checked + label::before {
+  content: '\2714'; /* Checkmark for checked state */
+  color: #007bff; /* Primary color checkmark */
+  font-size: 1.25rem;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+/* Custom File Input */
+input[type="file"] {
+  border: none;
+  padding: 0;
+  background-color: #f8f9fa;
+  cursor: pointer;
+}
+
+input[type="file"]::file-selector-button {
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background-color: #0056b3;
+}
+
+/* Custom Select Box */
+select {
+  appearance: none; /* Removes default styling */
+  background: #fff url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"%3E%3Cpath d="M7 10l5 5 5-5z" fill="%23000"%3E%3C/path%3E%3C/svg%3E') no-repeat right 0.75rem center;
+  background-size: 1rem;
+  padding-right: 2.5rem; /* Space for custom arrow */
+}
+
+select:focus {
+  background-color: #fff;
+  border-color: #007bff;
+}
+
+/* Custom Input Styles for Various States */
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="tel"] {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="number"]:focus, input[type="tel"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+/* Base Badge Styles */
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem; /* Rounded corners */
+}
+
+/* Badge Colors */
+.badge-primary {
+  background-color: #007bff; /* Primary color */
+}
+
+.badge-secondary {
+  background-color: #6c757d; /* Secondary color */
+}
+
+.badge-success {
+  background-color: #28a745; /* Success color */
+}
+
+.badge-danger {
+  background-color: #dc3545; /* Danger color */
+}
+
+.badge-warning {
+  background-color: #ffc107; /* Warning color */
+  color: #212529; /* Dark text for warning */
+}
+
+.badge-info {
+  background-color: #17a2b8; /* Info color */
+}
+
+.badge-light {
+  background-color: #f8f9fa; /* Light color */
+  color: #212529; /* Dark text for light badge */
+}
+
+.badge-dark {
+  background-color: #343a40; /* Dark color */
+}
+
+/* Badge Pill */
+.badge-pill {
+  border-radius: 10rem; /* Fully rounded corners */
+  padding: 0.25rem 0.75rem; /* Adjusted padding for pill shape */
+}
+
+/* Badge with Custom Sizes */
+.badge-lg {
+  font-size: 1rem; /* Larger font size */
+  padding: 0.5rem 0.75rem; /* Adjusted padding */
+}
+
+.badge-sm {
+  font-size: 0.65rem; /* Smaller font size */
+  padding: 0.2rem 0.4rem; /* Adjusted padding */
+}
+
+/* Badge with Icon */
+.badge-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Space between icon and text */
+}
+
+.badge-icon i {
+  font-size: 1rem; /* Icon size */
+}
+
+/* Badge Outline */
+.badge-outline {
+  color: #007bff; /* Text color for outline */
+  background-color: transparent;
+  border: 1px solid #007bff; /* Border color for outline */
+}
+
+.badge-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+/* Example of Badge in a Pill Shape with Icon */
+.badge-pill-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.75rem;
+}
+
+/* Base Tag Styles */
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #212529;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 0.25rem; /* Rounded corners */
+  background-color: #e9ecef; /* Light background color */
+  border: 1px solid #ced4da; /* Light border */
+}
+
+/* Tag Colors */
+.tag-primary {
+  background-color: #007bff; /* Primary color */
+  color: #fff; /* White text */
+}
+
+.tag-secondary {
+  background-color: #6c757d; /* Secondary color */
+  color: #fff; /* White text */
+}
+
+.tag-success {
+  background-color: #28a745; /* Success color */
+  color: #fff; /* White text */
+}
+
+.tag-danger {
+  background-color: #dc3545; /* Danger color */
+  color: #fff; /* White text */
+}
+
+.tag-warning {
+  background-color: #ffc107; /* Warning color */
+  color: #212529; /* Dark text */
+}
+
+.tag-info {
+  background-color: #17a2b8; /* Info color */
+  color: #fff; /* White text */
+}
+
+.tag-light {
+  background-color: #f8f9fa; /* Light color */
+  color: #212529; /* Dark text */
+}
+
+.tag-dark {
+  background-color: #343a40; /* Dark color */
+  color: #fff; /* White text */
+}
+
+/* Tag with Icons */
+.tag-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Space between icon and text */
+}
+
+.tag-icon i {
+  font-size: 1rem; /* Icon size */
+}
+
+/* Tag with Outline */
+.tag-outline {
+  color: #007bff; /* Text color for outline */
+  background-color: transparent;
+  border: 1px solid #007bff; /* Border color for outline */
+}
+
+.tag-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+/* Tag with Custom Sizes */
+.tag-lg {
+  font-size: 1rem; /* Larger font size */
+  padding: 0.5rem 0.75rem; /* Adjusted padding */
+}
+
+.tag-sm {
+  font-size: 0.65rem; /* Smaller font size */
+  padding: 0.2rem 0.4rem; /* Adjusted padding */
+}
+
+/* Tag with Rounded Corners */
+.tag-rounded {
+  border-radius: 1rem; /* Fully rounded corners */
+}
+
+/* Tag with Shadow */
+.tag-shadow {
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Base Icon Styles */
+.icon {
+  display: inline-block;
+  font-size: 1.5rem; /* Base icon size */
+  line-height: 1;
+  text-align: center;
+  vertical-align: middle;
+  color: #212529; /* Default icon color */
+}
+
+/* Icon Sizes */
+.icon-lg {
+  font-size: 2rem; /* Larger icon size */
+}
+
+.icon-sm {
+  font-size: 1rem; /* Smaller icon size */
+}
+
+/* Icon Colors */
+.icon-primary {
+  color: #007bff; /* Primary color */
+}
+
+.icon-secondary {
+  color: #6c757d; /* Secondary color */
+}
+
+.icon-success {
+  color: #28a745; /* Success color */
+}
+
+.icon-danger {
+  color: #dc3545; /* Danger color */
+}
+
+.icon-warning {
+  color: #ffc107; /* Warning color */
+}
+
+.icon-info {
+  color: #17a2b8; /* Info color */
+}
+
+.icon-light {
+  color: #f8f9fa; /* Light color */
+}
+
+.icon-dark {
+  color: #343a40; /* Dark color */
+}
+
+/* Icon Alignment */
+.icon-left {
+  margin-right: 0.5rem; /* Space between icon and text on the right */
+}
+
+.icon-right {
+  margin-left: 0.5rem; /* Space between icon and text on the left */
+}
+
+/* Icon with Background */
+.icon-bg {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem; /* Fixed size for background */
+  height: 2.5rem;
+  border-radius: 50%; /* Circle shape */
+  background-color: #e9ecef; /* Light background color */
+  color: #212529; /* Default icon color */
+}
+
+.icon-bg-primary {
+  background-color: #007bff;
+  color: #fff; /* White icon */
+}
+
+.icon-bg-secondary {
+  background-color: #6c757d;
+  color: #fff; /* White icon */
+}
+
+/* Icon with Shadow */
+.icon-shadow {
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Icon Rotations */
+.icon-rotate-90 {
+  transform: rotate(90deg); /* Rotate 90 degrees */
+}
+
+.icon-rotate-180 {
+  transform: rotate(180deg); /* Rotate 180 degrees */
+}
+
+.icon-rotate-270 {
+  transform: rotate(270deg); /* Rotate 270 degrees */
+}
+
+/* Icon Flip */
+.icon-flip-horizontal {
+  transform: scaleX(-1); /* Flip horizontally */
+}
+
+.icon-flip-vertical {
+  transform: scaleY(-1); /* Flip vertically */
+}
+
+/* Icon Sizes in Buttons */
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem; /* Icon button size */
+  height: 2rem;
+  font-size: 1rem; /* Icon size */
+  border-radius: 50%; /* Circle shape */
+  background-color: #e9ecef; /* Background color */
+  color: #212529; /* Default icon color */
+  border: 1px solid #ced4da; /* Border */
+}
+
+.icon-btn-primary {
+  background-color: #007bff;
+  color: #fff; /* White icon */
+}
+
+.icon-btn-secondary {
+  background-color: #6c757d;
+  color: #fff; /* White icon */
+}
