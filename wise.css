@@ -122,65 +122,154 @@
     .color-white { background-color: var(--color-white); color: black; border: 1px solid #ddd; }
 
 /* Default Styles */
-
-/* Typography */
+/* Base font settings */
 body {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #333;
+  font-family: Arial, sans-serif; /* Default font family */
+  font-size: 16px; /* Default font size */
+  line-height: 1.5; /* Line height for readability */
+  color: #333; /* Default text color */
   margin: 0;
   padding: 0;
 }
 
+/* Headings */
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
-  padding: 0.5rem 0;
+  padding: 0;
 }
 
 h1 {
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 2.5rem; /* Font size for h1 */
+  font-weight: bold; /* Font weight for h1 */
 }
 
 h2 {
-  font-size: 1.75rem;
-  font-weight: bold;
+  font-size: 2rem; /* Font size for h2 */
+  font-weight: bold; /* Font weight for h2 */
 }
 
 h3 {
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 1.75rem; /* Font size for h3 */
+  font-weight: bold; /* Font weight for h3 */
 }
 
 h4 {
-  font-size: 1.25rem;
-  font-weight: bold;
+  font-size: 1.5rem; /* Font size for h4 */
+  font-weight: bold; /* Font weight for h4 */
 }
 
 h5 {
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: 1.25rem; /* Font size for h5 */
+  font-weight: bold; /* Font weight for h5 */
 }
 
 h6 {
-  font-size: 0.875rem;
-  font-weight: bold;
+  font-size: 1rem; /* Font size for h6 */
+  font-weight: bold; /* Font weight for h6 */
 }
 
+/* Paragraphs */
 p {
-  margin: 0 0 1rem;
+  margin: 0 0 1rem; /* Margin for paragraphs */
+  font-size: 1rem; /* Font size for paragraphs */
 }
 
 /* Links */
 a {
-  color: #2196f3;
-  text-decoration: none;
+  color: #2196f3; /* Default link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: normal; /* Font weight for links */
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: underline; /* Underline on hover */
 }
+
+/* Font Families */
+.font-sans {
+  font-family: Arial, sans-serif; /* Sans-serif font family */
+}
+
+.font-serif {
+  font-family: 'Times New Roman', serif; /* Serif font family */
+}
+
+.font-mono {
+  font-family: 'Courier New', monospace; /* Monospace font family */
+}
+
+/* Font Weights */
+.font-weight-light {
+  font-weight: 300; /* Light font weight */
+}
+
+.font-weight-normal {
+  font-weight: 400; /* Normal font weight */
+}
+
+.font-weight-bold {
+  font-weight: 700; /* Bold font weight */
+}
+
+.font-weight-bolder {
+  font-weight: 900; /* Bolder font weight */
+}
+
+/* Font Sizes */
+.text-xs {
+  font-size: 0.75rem; /* Extra small font size */
+}
+
+.text-sm {
+  font-size: 0.875rem; /* Small font size */
+}
+
+.text-md {
+  font-size: 1rem; /* Medium font size */
+}
+
+.text-lg {
+  font-size: 1.25rem; /* Large font size */
+}
+
+.text-xl {
+  font-size: 1.5rem; /* Extra large font size */
+}
+
+.text-2xl {
+  font-size: 2rem; /* 2x Extra large font size */
+}
+
+.text-3xl {
+  font-size: 2.5rem; /* 3x Extra large font size */
+}
+
+/* Text Transformations */
+.uppercase {
+  text-transform: uppercase; /* Uppercase text */
+}
+
+.lowercase {
+  text-transform: lowercase; /* Lowercase text */
+}
+
+.capitalize {
+  text-transform: capitalize; /* Capitalize text */
+}
+
+/* Text Alignment */
+.text-center {
+  text-align: center; /* Center text alignment */
+}
+
+.text-right {
+  text-align: right; /* Right text alignment */
+}
+
+.text-left {
+  text-align: left; /* Left text alignment */
+}
+
 
 /* Buttons */
 button {
