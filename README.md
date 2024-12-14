@@ -1,4 +1,4 @@
-# wise.css
+# wise.css  
 
 **wise.css** is a lightweight CSS framework designed for fast and simple web development. It provides a clean and easy-to-use structure with optimized, customizable components. With a focus on simplicity, **wise.css** allows you to quickly style your HTML elements with minimal effort. Created by [Pg Network](https://github.com/PgNetwork01)
 
