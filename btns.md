@@ -12,6 +12,7 @@
 - [Additional Styles](#additional-styles)
 - [HTML Example](#html-example)
 
+
 ## Basic Buttons
 
 The base class `.btn` provides the foundation for all button styles. By adding specific modifier classes, you can customize the button's appearance.
